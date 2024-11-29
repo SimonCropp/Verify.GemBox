@@ -1,7 +1,6 @@
-﻿using System.Collections.Generic;
+using System.Collections.Generic;
 using System.IO;
 using System.Linq;
-using GemBox.Pdf;
 
 namespace VerifyTests;
 
@@ -57,11 +56,11 @@ public static partial class VerifyGemBox
         {
             var page = pages[index];
 
-            var text = page.ToString();
-            yield return new("txt", text);
-            //TODO: also export page text
+            var text = page.Content.ToString();
 
-            using var pngStream = new MemoryStream();
+            yield return new("txt", text);
+
+            var pngStream = new MemoryStream();
 
             imageOptions.PageNumber = index;
             document.Save(pngStream, imageOptions);

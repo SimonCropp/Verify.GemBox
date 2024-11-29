@@ -1,7 +1,8 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFrameworks>net48;net6.0;net7.0;net8.0</TargetFrameworks>
+    <TargetFrameworks>net6.0;net7.0;net8.0</TargetFrameworks>
+    <SignAssembly>False</SignAssembly>
   </PropertyGroup>
 
   <ItemGroup>
@@ -9,7 +10,6 @@
     <PackageReference Include="GemBox.Presentation" />
     <PackageReference Include="GemBox.Spreadsheet" />
     <PackageReference Include="Verify" />
-    <!--<PackageReference Include="ProjectDefaults" PrivateAssets="all" />-->
     <PackageReference Include="System.Text.Json" />
     <PackageReference Include="Microsoft.Extensions.Caching.Memory" />
   </ItemGroup>
