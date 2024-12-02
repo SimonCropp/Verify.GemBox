@@ -1,21 +1,21 @@
-# <img src="/src/icon.png" height="30px"> Verify.Syncfusion
+# <img src="/src/icon.png" height="30px"> Verify.GemBox
 
 [![Discussions](https://img.shields.io/badge/Verify-Discussions-yellow?svg=true&label=)](https://github.com/orgs/VerifyTests/discussions)
-[![Build status](https://ci.appveyor.com/api/projects/status/hkr80o3jgok632nw?svg=true)](https://ci.appveyor.com/project/SimonCropp/Verify-Syncfusion)
-[![NuGet Status](https://img.shields.io/nuget/v/Verify.Syncfusion.svg)](https://www.nuget.org/packages/Verify.Syncfusion/)
+[![Build status](https://ci.appveyor.com/api/projects/status/hkr80o3jgok632nw?svg=true)](https://ci.appveyor.com/project/SimonCropp/Verify-GemBox)
+[![NuGet Status](https://img.shields.io/nuget/v/Verify.GemBox.svg)](https://www.nuget.org/packages/Verify.GemBox/)
 
-Extends [Verify](https://github.com/VerifyTests/Verify) to allow verification of documents via [Syncfusion File Formats](https://help.syncfusion.com/file-formats/introduction/).
+Extends [Verify](https://github.com/VerifyTests/Verify) to allow verification of documents via [GemBox](https://www.gemboxsoftware.com/).
 
 Converts documents (pdf, docx, xlsx, and pptx) to png/csv/text for verification.
 
 **See [Milestones](../../milestones?state=closed) for release notes.**
 
-An [Syncfusion License](https://www.syncfusion.com/sales/licensing) is required to use this tool.
+A [GemBox License](https://www.gemboxsoftware.com/purchase) is required to use this tool.
 
 
 ## NuGet package
 
-https://nuget.org/packages/Verify.Syncfusion/
+https://nuget.org/packages/Verify.GemBox/
 
 
 ## Usage
@@ -25,7 +25,7 @@ https://nuget.org/packages/Verify.Syncfusion/
 ```cs
 [ModuleInitializer]
 public static void Initialize() =>
-    VerifySyncfusion.Initialize();
+    VerifyGemBox.Initialize();
 ```
 <sup><a href='/src/Tests/ModuleInitializer.cs#L3-L9' title='Snippet source file'>snippet source</a> | <a href='#snippet-enable' title='Start of snippet'>anchor</a></sup>
 <!-- endSnippet -->
@@ -69,24 +69,20 @@ public Task VerifyPdfStream()
 <a id='snippet-Samples.VerifyPdf#00.verified.txt'></a>
 ```txt
 {
-  PageCount: 2,
-  Author: ,
-  CreationDate: DateTime_1,
+  Count: 2,
+  CreationDate: DateTimeOffset_1,
   Creator: RAD PDF,
-  CustomMetadata: [],
-  Keywords: ,
-  ModificationDate: DateTime_2,
-  Producer: RAD PDF 3.9.0.0 - http://www.radpdf.com,
-  Subject: ,
-  Title: 
+  Metadata: [],
+  ModificationDate: DateTimeOffset_2,
+  Producer: RAD PDF 3.9.0.0 - http://www.radpdf.com
 }
 ```
 <sup><a href='/src/Tests/Samples.VerifyPdf#00.verified.txt#L1-L12' title='Snippet source file'>snippet source</a> | <a href='#snippet-Samples.VerifyPdf#00.verified.txt' title='Start of snippet'>anchor</a></sup>
 <!-- endSnippet -->
 
-[Samples.VerifyPdf.01.verified.png](/src/Tests/Samples.VerifyPdf.01.verified.png):
+[Samples.VerifyPdf.01.verified.png](/src/Tests/Samples.VerifyPdf#01.verified.png):
 
-<img src="https://raw.githubusercontent.com/SimonCropp/Verify.Syncfusion/main/src/Tests/Samples.VerifyPdf.01.verified.png" width="200px">
+<img src="/src/Tests/Samples.VerifyPdf#01.verified.png" width="200px">
 
 
 ### Excel
@@ -150,7 +146,6 @@ public Task VerifyExcelStream()
 <!-- snippet: Samples.VerifyExcel.verified.csv -->
 <a id='snippet-Samples.VerifyExcel.verified.csv'></a>
 ```csv
-Created with a trial version of Syncfusion Excel library or registered the wrong key in your application. Go to www.syncfusion.com/account/claim-license-key to obtain the valid key.
 0, First Name, Last Name, Gender, Country, Age, Date, Id
 1, Dulce, Abril, Female, United States, 32, 15/10/2017, 1562
 2, Mara, Hashimoto, Female, Great Britain, 25, 16/08/2016, 1582
@@ -158,7 +153,6 @@ Created with a trial version of Syncfusion Excel library or registered the wrong
 4, Kathleen, Hanner, Female, United States, 25, 15/10/2017, 3549
 5, Nereida, Magwood, Female, United States, 58, 16/08/2016, 2468
 6, Gaston, Brumm, Male, United States, 24, 21/05/2015, 2554
-Created with a trial version of Syncfusion Excel library or registered the wrong key in your application. Go to www.syncfusion.com/account/claim-license-key to obtain the valid key.
 ```
 <sup><a href='/src/Tests/Samples.VerifyExcel.verified.csv#L1-L9' title='Snippet source file'>snippet source</a> | <a href='#snippet-Samples.VerifyExcel.verified.csv' title='Start of snippet'>anchor</a></sup>
 <!-- endSnippet -->
@@ -220,7 +214,6 @@ public Task VerifyWordStream()
 <!-- snippet: Samples.VerifyWord#01.verified.txt -->
 <a id='snippet-Samples.VerifyWord#01.verified.txt'></a>
 ```txt
-Created with a trial version of Syncfusion Word library or registered the wrong key in your application. Go to "www.syncfusion.com/account/claim-license-key" to obtain the valid key.
 Lorem ipsum 
 
   Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ac faucibus odio. 
@@ -234,7 +227,6 @@ Maecenas mauris lectus, lobortis et purus mattis, blandit dictum tellus.
 * Morbi viverra semper lorem nec molestie. 
 * Maecenas tincidunt est efficitur ligula euismod, sit amet ornare est vulputate.
 
-Created with a trial version of Syncfusion Word library or registered the wrong key in your application. Go to "www.syncfusion.com/account/claim-license-key" to obtain the valid key.
 ```
 <sup><a href='/src/Tests/Samples.VerifyWord#01.verified.txt#L1-L15' title='Snippet source file'>snippet source</a> | <a href='#snippet-Samples.VerifyWord#01.verified.txt' title='Start of snippet'>anchor</a></sup>
 <!-- endSnippet -->
@@ -310,14 +302,9 @@ public Task VerifyPowerPointStream()
 
 [Samples.VerifyPowerPoint.01.verified.png](/src/Tests/Samples.VerifyPowerPoint.01.verified.png):
 
-<img src="https://raw.githubusercontent.com/SimonCropp/Verify.Syncfusion/main/src/Tests/Samples.VerifyPowerPoint.01.verified.png" width="200px">
+<img src="https://raw.githubusercontent.com/SimonCropp/Verify.GemBox/main/src/Tests/Samples.VerifyPowerPoint.01.verified.png" width="200px">
 
 
 ## File Samples
 
 http://file-examples.com/
-
-
-## Icon
-
-[Boxes](https://thenounproject.com/term/boxes/1526666/) designed by [Amelia](https://thenounproject.com/langonsivani/) from [The Noun Project](https://thenounproject.com/).
