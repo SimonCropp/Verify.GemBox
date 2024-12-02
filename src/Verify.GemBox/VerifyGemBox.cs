@@ -1,5 +1,3 @@
-﻿using GemBox.Pdf;
-
 namespace VerifyTests;
 
 public static partial class VerifyGemBox
