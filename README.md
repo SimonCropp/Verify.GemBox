@@ -77,12 +77,12 @@ public Task VerifyPdfStream()
   Producer: RAD PDF 3.9.0.0 - http://www.radpdf.com
 }
 ```
-<sup><a href='/src/Tests/Samples.VerifyPdf#00.verified.txt#L1-L12' title='Snippet source file'>snippet source</a> | <a href='#snippet-Samples.VerifyPdf#00.verified.txt' title='Start of snippet'>anchor</a></sup>
+<sup><a href='/src/Tests/Samples.VerifyPdf\#00.verified.txt#L1-L12' title='Snippet source file'>snippet source</a> | <a href='#snippet-Samples.VerifyPdf#00.verified.txt' title='Start of snippet'>anchor</a></sup>
 <!-- endSnippet -->
 
-[Samples.VerifyPdf.01.verified.png](/src/Tests/Samples.VerifyPdf#01.verified.png):
+[Samples.VerifyPdf#01.verified.png](/src/Tests/Samples.VerifyPdf\#01.verified.png):
 
-<img src="/src/Tests/Samples.VerifyPdf#01.verified.png" width="200px">
+<img src="/src/Tests/Samples.VerifyPdf\#01.verified.png" width="200px">
 
 
 ### Excel
