@@ -1,0 +1,12 @@
+﻿{
+  Use1904DateSystem: false,
+  Title: The Title,
+  LastSavedBy: Simon Cropp,
+  Application: Microsoft Excel,
+  DateLastSaved: DateTimeOffset_1,
+  IsWindowProtection: false,
+  IsProtected: false,
+  ActiveSheetIndex: 0,
+  StandardFont: Arial,
+  StandardFontSize: 200
+}

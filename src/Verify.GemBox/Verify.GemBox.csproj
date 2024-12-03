@@ -5,6 +5,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="GemBox.Document" />
     <PackageReference Include="GemBox.Pdf" />
     <PackageReference Include="GemBox.Presentation" />
     <PackageReference Include="GemBox.Spreadsheet" />

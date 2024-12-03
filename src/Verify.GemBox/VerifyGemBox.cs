@@ -1,3 +1,5 @@
+using GemBox.Document;
+
 namespace VerifyTests;
 
 public static partial class VerifyGemBox
@@ -19,5 +21,9 @@ public static partial class VerifyGemBox
 
         VerifierSettings.RegisterFileConverter("pdf", ConvertPdf);
         VerifierSettings.RegisterFileConverter<PdfDocument>(ConvertPdf);
+
+        VerifierSettings.RegisterFileConverter("docx", ConvertDocx);
+        VerifierSettings.RegisterFileConverter("doc", ConvertDoc);
+        VerifierSettings.RegisterFileConverter<DocumentModel>(ConvertWord);
     }
 }

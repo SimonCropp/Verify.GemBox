@@ -4,6 +4,7 @@
     <CentralPackageTransitivePinningEnabled>true</CentralPackageTransitivePinningEnabled>
   </PropertyGroup>
   <ItemGroup>
+    <PackageVersion Include="GemBox.Document" Version="35.0.1906" />
     <PackageVersion Include="GemBox.Pdf" Version="17.0.1620" />
     <PackageVersion Include="GemBox.Presentation" Version="27.0.1115" />
     <PackageVersion Include="GemBox.Spreadsheet" Version="49.0.1858" />
