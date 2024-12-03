@@ -11,4 +11,8 @@ public class Samples
         var stream = new MemoryStream(File.ReadAllBytes("sample.pdf"));
         return Verify(stream, "pdf");
     }
+
+    [Test]
+    public Task VerifyExcel() =>
+        VerifyFile("sample.xlsx");
 }

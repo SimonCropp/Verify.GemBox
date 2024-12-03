@@ -1,6 +1,8 @@
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
+using ImageSaveFormat = GemBox.Pdf.ImageSaveFormat;
+using ImageSaveOptions = GemBox.Pdf.ImageSaveOptions;
 
 namespace VerifyTests;
 

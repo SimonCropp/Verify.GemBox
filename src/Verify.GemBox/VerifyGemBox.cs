@@ -13,6 +13,10 @@ public static partial class VerifyGemBox
 
         Initialized = true;
 
+        VerifierSettings.RegisterFileConverter("xlsx", ConvertExcel);
+        VerifierSettings.RegisterFileConverter("xls", ConvertExcel);
+        VerifierSettings.RegisterFileConverter<ExcelFile>(ConvertExcel);
+
         VerifierSettings.RegisterFileConverter("pdf", ConvertPdf);
         VerifierSettings.RegisterFileConverter<PdfDocument>(ConvertPdf);
     }

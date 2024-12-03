@@ -15,5 +15,6 @@
 
   <ItemGroup>
 	  <Using Include="GemBox.Pdf" />
+	  <Using Include="GemBox.Spreadsheet" />
   </ItemGroup>
 </Project>
