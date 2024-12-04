@@ -1,6 +1,7 @@
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
+using System.Text;
 using GemBox.Document;
 using LoadOptions = GemBox.Document.LoadOptions;
 using SaveOptions = GemBox.Document.SaveOptions;
@@ -46,11 +47,13 @@ public static partial class VerifyGemBox
 
     static IEnumerable<Target> GetWordStreams(DocumentModel document)
     {
-        using var stream = new MemoryStream();
-        document.Save(stream, SaveOptions.DocxDefault);
-
         foreach (var page in document.GetPaginator().Pages)
         {
+            var textStream = new MemoryStream();
+            page.Save(textStream, SaveOptions.TxtDefault);
+
+            yield return new("txt", ReadLines(textStream));
+
             var imageStream = new MemoryStream();
             page.Save(imageStream, SaveOptions.ImageDefault);
 
@@ -58,5 +61,19 @@ public static partial class VerifyGemBox
 
             yield return new("png", imageStream);
         }
+    }
+
+    static string ReadLines(MemoryStream stream)
+    {
+        stream.Position = 0;
+        var builder = new StringBuilder();
+        using var writer = new StringWriter(builder);
+        using var reader = new StreamReader(stream);
+        while (reader.ReadLine() is { } line)
+        {
+            writer.WriteLine(line);
+        }
+
+        return builder.ToString();
     }
 }

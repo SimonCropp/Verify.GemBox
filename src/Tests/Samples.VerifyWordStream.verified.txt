@@ -1,6 +1,0 @@
-﻿{
-  LastSavedBy: CALLEWAERT Bjarne,
-  Application: Microsoft Office Word,
-  DateContentCreated: DateTimeOffset_1,
-  DateLastSaved: DateTimeOffset_2
-}

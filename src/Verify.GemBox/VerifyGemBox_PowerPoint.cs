@@ -48,9 +48,6 @@ public static partial class VerifyGemBox
     static IEnumerable<Target> GetPowerPointStreams(PresentationDocument document, IReadOnlyDictionary<string, object> settings)
     {
         var pagesToInclude = settings.GetPagesToInclude(document.Slides.Count);
-        var powerpointStream = new MemoryStream();
-        document.Save(powerpointStream, SaveOptions.Pdf);
-        powerpointStream.Position = 0;
 
         for (var index = 0; index < pagesToInclude; index++)
         {

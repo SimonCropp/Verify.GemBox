@@ -48,10 +48,6 @@ public static partial class VerifyGemBox
         PdfPages pages)
     {
         var pagesToInclude = settings.GetPagesToInclude(pages.Count);
-        var pdfStream = new MemoryStream();
-        document.Save(pdfStream);
-        pdfStream.Position = 0;
-
         var imageOptions = new ImageSaveOptions(ImageSaveFormat.Png);
 
         for (var index = 0; index < pagesToInclude; index++)
