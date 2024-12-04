@@ -1,0 +1,9 @@
+﻿{
+  Author: Simon Cropp,
+  Title: Lorem ipsum,
+  LastSavedBy: Simon Cropp,
+  Application: Microsoft Office PowerPoint,
+  DateContentCreated: DateTimeOffset_1,
+  DateLastSaved: DateTimeOffset_2,
+  DateLastPrinted: DateTimeOffset_3
+}

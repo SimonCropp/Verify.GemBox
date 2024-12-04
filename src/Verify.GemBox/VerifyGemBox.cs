@@ -1,4 +1,5 @@
 using GemBox.Document;
+using GemBox.Presentation;
 
 namespace VerifyTests;
 
@@ -25,5 +26,9 @@ public static partial class VerifyGemBox
         VerifierSettings.RegisterFileConverter("docx", ConvertDocx);
         VerifierSettings.RegisterFileConverter("doc", ConvertDoc);
         VerifierSettings.RegisterFileConverter<DocumentModel>(ConvertWord);
+
+        VerifierSettings.RegisterFileConverter("pptx", ConvertPptx);
+        VerifierSettings.RegisterFileConverter("ppt", ConvertPpt);
+        VerifierSettings.RegisterFileConverter<PresentationDocument>(ConvertPowerPoint);
     }
 }

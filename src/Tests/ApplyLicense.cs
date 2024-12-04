@@ -10,6 +10,7 @@ public static class ApplyLicense
         SpreadsheetInfo.SetLicense("FREE-LIMITED-KEY");
         SpreadsheetInfo.FreeLimitReached += (_, e) => e.FreeLimitReachedAction = FreeLimitReachedAction.Stop;
         GemBox.Document.ComponentInfo.SetLicense("FREE-LIMITED-KEY");
+        GemBox.Presentation.ComponentInfo.SetLicense("FREE-LIMITED-KEY");
 #pragma warning restore CA1416
     }
 }

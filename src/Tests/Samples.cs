@@ -33,4 +33,15 @@ public class Samples
         var stream = new MemoryStream(File.ReadAllBytes("sample.docx"));
         return Verify(stream, "docx");
     }
+
+    [Test]
+    public Task VerifyPowerPoint() =>
+        VerifyFile("sample.pptx");
+
+    [Test]
+    public Task VerifyPowerPointStream()
+    {
+        var stream = new MemoryStream(File.ReadAllBytes("sample.pptx"));
+        return Verify(stream, "pptx");
+    }
 }

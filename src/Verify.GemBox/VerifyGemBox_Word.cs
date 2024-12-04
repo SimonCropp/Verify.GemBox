@@ -1,7 +1,6 @@
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
-using System.Text;
 using GemBox.Document;
 using LoadOptions = GemBox.Document.LoadOptions;
 using SaveOptions = GemBox.Document.SaveOptions;
