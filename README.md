@@ -236,7 +236,8 @@ Maecenas mauris lectus, lobortis et purus mattis, blandit dictum tellus.
 <!-- endSnippet -->
 
 [Samples.VerifyWord.verified.png](/src/Tests/Samples.VerifyWord.verified.png):
-<img src="/src/Tests/Samples.VerifyWord%2300.verified.png" width="200px">
+
+<img src="/src/Tests/Samples.VerifyWord.verified.png" width="200px">
 
 ### PowerPoint
 
