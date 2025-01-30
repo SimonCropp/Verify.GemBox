@@ -4,20 +4,20 @@
     <CentralPackageTransitivePinningEnabled>true</CentralPackageTransitivePinningEnabled>
   </PropertyGroup>
   <ItemGroup>
-    <PackageVersion Include="GemBox.Document" Version="35.0.1906" />
-    <PackageVersion Include="GemBox.Pdf" Version="17.0.1620" />
-    <PackageVersion Include="GemBox.Presentation" Version="27.0.1115" />
-    <PackageVersion Include="GemBox.Spreadsheet" Version="49.0.1858" />
+    <PackageVersion Include="GemBox.Document" Version="2025.1.103" />
+    <PackageVersion Include="GemBox.Pdf" Version="2025.1.103" />
+    <PackageVersion Include="GemBox.Presentation" Version="2025.1.103" />
+    <PackageVersion Include="GemBox.Spreadsheet" Version="2025.1.104" />
     <PackageVersion Include="MarkdownSnippets.MsBuild" Version="27.0.2" />
     <PackageVersion Include="Microsoft.NET.Test.Sdk" Version="17.12.0" />
     <PackageVersion Include="NUnit" Version="4.2.2" />
     <PackageVersion Include="NUnit3TestAdapter" Version="4.6.0" />
     <PackageVersion Include="ProjectDefaults" Version="1.0.144" />
-    <PackageVersion Include="Verify" Version="28.4.0" />
+    <PackageVersion Include="Verify" Version="28.9.0" />
     <PackageVersion Include="Verify.DiffPlex" Version="3.1.2" />
     <PackageVersion Include="Verify.NUnit" Version="28.3.2" />
     <!-- CVE -->
-    <PackageVersion Include="System.Text.Json" Version="9.0.0" />
-    <PackageVersion Include="Microsoft.Extensions.Caching.Memory" Version="9.0.0" />
+    <PackageVersion Include="System.Text.Json" Version="9.0.1" />
+    <PackageVersion Include="Microsoft.Extensions.Caching.Memory" Version="9.0.1" />
   </ItemGroup>
 </Project>
