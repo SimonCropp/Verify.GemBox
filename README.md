@@ -80,6 +80,10 @@ public Task VerifyPdfStream()
 <sup><a href='/src/Tests/Samples.VerifyPdf%23#00.verified.txt#L1-L12' title='Snippet source file'>snippet source</a> | <a href='#snippet-Samples.VerifyPdf#00.verified.txt' title='Start of snippet'>anchor</a></sup>
 <!-- endSnippet -->
 
+[Samples.VerifyPdf#00.verified.png](/src/Tests/Samples.VerifyPdf%2300.verified.png):
+
+<img src="/src/Tests/Samples.VerifyPdf%2300.verified.png" width="200px">
+
 [Samples.VerifyPdf#01.verified.png](/src/Tests/Samples.VerifyPdf%2301.verified.png):
 
 <img src="/src/Tests/Samples.VerifyPdf%2301.verified.png" width="200px">
@@ -231,12 +235,9 @@ Maecenas mauris lectus, lobortis et purus mattis, blandit dictum tellus.
 <sup><a href='/src/Tests/Samples.VerifyWord#01.verified.txt#L1-L15' title='Snippet source file'>snippet source</a> | <a href='#snippet-Samples.VerifyWord#01.verified.txt' title='Start of snippet'>anchor</a></sup>
 <!-- endSnippet -->
 
+[Samples.VerifyWord.verified.png](/src/Tests/Samples.VerifyWord.verified.png):
 
-[Samples.VerifyWord#00.verified.png](/src/Tests/Samples.VerifyWord#00.verified.png):
-<img src="/src/Tests/Samples.VerifyWord%2300.verified.png" width="200px">
-
-[Samples.VerifyWord#01.verified.png](/src/Tests/Samples.VerifyWord#01.verified.png):
-<img src="/src/Tests/Samples.VerifyWord%2301.verified.png" width="200px">
+<img src="/src/Tests/Samples.VerifyWord.verified.png" width="200px">
 
 ### PowerPoint
 
@@ -300,9 +301,17 @@ public Task VerifyPowerPointStream()
 <sup><a href='/src/Tests/Samples.VerifyPowerPoint.verified.txt#L1-L21' title='Snippet source file'>snippet source</a> | <a href='#snippet-Samples.VerifyPowerPoint.verified.txt' title='Start of snippet'>anchor</a></sup>
 <!-- endSnippet -->
 
-[Samples.VerifyPowerPoint.01.verified.png](/src/Tests/Samples.VerifyPowerPoint.01.verified.png):
+[Samples.VerifyPowerPoint#00.verified.png](/src/Tests/Samples.VerifyPowerPoint%2300.verified.png):
 
-<img src="https://raw.githubusercontent.com/SimonCropp/Verify.GemBox/main/src/Tests/Samples.VerifyPowerPoint.01.verified.png" width="200px">
+<img src="/src/Tests/Samples.VerifyPowerPoint%2300.verified.png" width="200px">
+
+[Samples.VerifyPowerPoint#01.verified.png](/src/Tests/Samples.VerifyPowerPoint%2301.verified.png):
+
+<img src="/src/Tests/Samples.VerifyPowerPoint%2301.verified.png" width="200px">
+
+[Samples.VerifyPowerPoint#02.verified.png](/src/Tests/Samples.VerifyPowerPoint%2302.verified.png):
+
+<img src="/src/Tests/Samples.VerifyPowerPoint%2302.verified.png" width="200px">
 
 
 ## File Samples
